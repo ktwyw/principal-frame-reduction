@@ -1,0 +1,12 @@
+UCM, relax rate 1+c tr(S D^2), c=0.02: P1 0.742 P2 0.037
+UCM, relax rate 1+c tr(S D^2), c=0.1: P1 0.571 P2 0.055
+UCM, relax rate 1+c tr(S D^2), c=0.3: P1 0.396 P2 0.062
+UCM, relax rate 1+c tr(S D^2), c=-0.3: P1 0.596 P2 0.097
+UCM + c (S D^2 + D^2 S), c=0.1: P1 37.488 P2 0.399
+UCM + c (S D^2 + D^2 S), c=-0.1: P1 0.235 P2 0.031
+UCM + c (S D^2 + D^2 S), c=0.3: P1 68.829 P2 0.819
+UCM + c (S D^2 + D^2 S), c=-0.3: P1 0.423 P2 0.070
+phi1(J1): rate 1+k*S:D P1 3.3e-16 P2 3.3e-16
+(trS)D,(S:D)I, xi=0.8 P1 2.3e-15 P2 2.1e-15
+SD+DS, S2D+DS2 P1 2.2e-16 P2 2.2e-16
+strand ext -(S:D)(S+I) P1 3.3e-16 P2 6.7e-16

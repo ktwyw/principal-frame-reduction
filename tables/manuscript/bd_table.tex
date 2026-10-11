@@ -1,0 +1,24 @@
+\begin{table*}
+\caption{Brownian dynamics of FENE dumbbells without closure. Steady shear at $\mathrm{Wi}=\gd\lambda_H$ gives $\eta$, $N_1$, the effective rate $\eeff$ and the composite $\eta_{[P1]}$; a separate simulation of planar extension at $\ed=\eeff$ gives the true $\eta_{P1}$. Stresses in units of $nkT$, times in units of $\lambda_H$. Statistical standard errors of the two viscosities are below $0.3\%$ (see Appendix~\ref{app:num} for caveats). The lower block repeats $\mathrm{Wi}=10$ with a halved time step, with a different random seed, and for other values of $b$.}\label{tab:bd}
+\begin{ruledtabular}
+\begin{tabular}{ccccccccc}
+$b$ & Wi & $\eta$ & $N_1$ & $\eeff$ & $\eta_{[P1]}$ & $\eta_{P1}$ (true) & $\eta_{[P1]}/\eta_{P1}$ & \\
+\hline
+50 & 0.5 & 0.900 & 0.39 & 0.229 & 4.29 & 4.28 & 1.002 & \\
+50 & 1 & 0.869 & 1.44 & 0.385 & 5.85 & 5.90 & 0.992 & \\
+50 & 2 & 0.791 & 4.63 & 0.564 & 9.95 & 11.40 & 0.873 & \\
+50 & 3 & 0.718 & 8.40 & 0.685 & 13.79 & 19.67 & 0.701 & \\
+50 & 5 & 0.608 & 16.13 & 0.881 & 19.56 & 37.44 & 0.522 & \\
+50 & 10 & 0.452 & 33.91 & 1.288 & 27.25 & 58.22 & 0.468 & \\
+50 & 20 & 0.318 & 63.63 & 1.958 & 33.14 & 72.74 & 0.456 & \\
+50 & 30 & 0.254 & 88.72 & 2.535 & 35.50 & 78.98 & 0.449 & \\
+50 & 50 & 0.188 & 131.47 & 3.544 & 37.47 & 84.99 & 0.441 & \\
+50 & 100 & 0.124 & 217.92 & 5.643 & 38.87 & 90.59 & 0.429 & \\
+\hline
+50 & 10 & 0.452 & 33.89 & 1.289 & 27.22 & 58.28 & 0.467 & half time step\\
+50 & 10 & 0.453 & 33.92 & 1.289 & 27.23 & 58.29 & 0.467 & new seed\\
+20 & 10 & 0.351 & 19.77 & 1.674 & 12.53 & 25.91 & 0.484 & \\
+100 & 10 & 0.536 & 48.98 & 1.068 & 46.94 & 102.65 & 0.457 & \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this repository."
+title: "Principal-frame reduction of steady viscoelastic flows: code and data"
+version: 1.0.0
+date-released: 2026-10-11
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Yanwei
+    email: yanwei.wang@nu.edu.kz
+    orcid: "https://orcid.org/0000-0002-8488-9833"
+    affiliation: "Department of Chemical and Materials Engineering, School of Engineering, and Institute of New Materials and Energy Technologies, Nazarbayev University, Astana, Kazakhstan"
+keywords: [rheology, planar extension, viscoelasticity, constitutive equations, composite viscosity]
+preferred-citation:
+  type: article
+  title: "Principal-frame reduction of steady viscoelastic flows: generalizing the equivalence of shear and planar extension"
+  authors:
+    - family-names: Wang
+      given-names: Yanwei
+      orcid: "https://orcid.org/0000-0002-8488-9833"
+  journal: "Journal of Rheology"
+  year: 2026
+  status: submitted

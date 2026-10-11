@@ -1,0 +1,8 @@
+eps=0.01 span=+-1.5 decades: ratio range 0.1203 .. 1.003051  argmax (array([0.94064005, 0.05935995]), array([0.87967082, 2.90678151]), np.float64(5.150678076168122), np.float64(0.6659970369464757))
+eps=0.01 span=+-3 decades: ratio range 0.0193 .. 1.002886  argmax (array([0.07784947, 0.92215053]), array([1.93236781, 0.92128797]), np.float64(5.150678076168122), np.float64(0.6478707457772458))
+eps=0.1 span=+-1.5 decades: ratio range 0.2407 .. 1.000000  argmax 
+eps=0.1 span=+-3 decades: ratio range 0.0345 .. 1.000000  argmax 
+eps=0.3 span=+-1.5 decades: ratio range 0.3973 .. 1.000000  argmax 
+eps=0.3 span=+-3 decades: ratio range 0.1051 .. 1.000000  argmax 
+eps=1 span=+-1.5 decades: ratio range 0.4517 .. 1.000000  argmax 
+eps=1 span=+-3 decades: ratio range 0.0688 .. 1.000000  argmax 

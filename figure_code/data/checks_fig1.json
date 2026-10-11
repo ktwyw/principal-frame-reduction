@@ -1,0 +1,1 @@
+[{"figure": "fig1", "what": "Giesekus: collapse is exact (mismatch < 1e-9)", "quoted": "0", "computed": 7.593925488436071e-14, "tol": 1e-09, "ok": true, "note": ""}, {"figure": "fig1", "what": "Rolie-Poly: collapse is exact (mismatch < 1e-9)", "quoted": "0", "computed": 1.5083490012557377e-12, "tol": 1e-09, "ok": true, "note": ""}]

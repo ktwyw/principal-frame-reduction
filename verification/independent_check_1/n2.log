@@ -1,0 +1,93 @@
+=== mixed planar flows L=gd(e1e2+alpha e2e1)
+linPTT worst mismatch (planar family) 8.845284880309454e-16
+Giesekus worst mismatch (planar family) 6.3133873722799085e-16
+RoliePoly(noFE) worst mismatch (planar family) 9.579597772976056e-16
+FENE-P worst mismatch (planar family) 8.971983839243885e-16
+JS0.6 worst mismatch (planar family) 4.504937819371771e-16
+UCM worst mismatch (planar family) 4.440892098500629e-16
+=== 3D flows of Table 3
+linPTT I d= [ 0.475  0.3   -0.775] mismatch 4.9e-16 res 3.040470972244059e-16 4.965068306494546e-16
+linPTT II d= [ 1.027 -0.32  -0.707] mismatch 1.4e-16 res 3.616754924276472e-15 1.790180836524724e-15
+Giesekus I d= [ 0.469  0.3   -0.769] mismatch 4.4e-16 res 7.731808680624463e-16 1.1102230246251565e-16
+Giesekus II d= [ 1.037 -0.347 -0.69 ] mismatch 4.8e-17 res 1.191874962812805e-15 2.482534153247273e-16
+RoliePoly(noFE) I d= [ 0.54  0.3  -0.84] mismatch 3.3e-16 res 1.2412670766236366e-16 2.498001805406602e-16
+RoliePoly(noFE) II d= [ 1.057 -0.326 -0.731] mismatch 1.4e-16 res 1.464484751053976e-15 1.7772239894833365e-15
+FENE-P I d= [ 0.433  0.3   -0.733] mismatch 6.9e-17 res 3.1401849173675503e-16 4.577566798522237e-16
+FENE-P II d= [ 0.999 -0.314 -0.685] mismatch 5.7e-16 res 4.699798436761765e-15 7.109762843609142e-15
+JS0.6 I d= [ 0.358  0.3   -0.658] mismatch 5.3e-16 res 1.7554167342883506e-16 2.220446049250313e-16
+JS0.6 II d= [ 0.772 -0.304 -0.468] mismatch 2.2e-13 res 2.767218361258043e-15 3.3950620093037287e-13
+UCM I d= [ 0.395  0.3   -0.695] mismatch 1.7e-15 res 5.266250202865052e-16 1.1102230246251565e-16
+/usr/local/lib/python3.13/dist-packages/numpy/linalg/_linalg.py:2767: RuntimeWarning: overflow encountered in dot
+  sqnorm = x.dot(x)
+UCM II d= [ 0.988 -0.484 -0.503] mismatch 3.7e-01 res inf inf
+=== uniaxial / biaxial tuned flows
+linPTT uni gd 0.3 a=-0.09519 e=0.14279 d= [ 1.3333 -0.6667 -0.6667] mismatch 1.9e-16  a/gd=-0.3173
+linPTT biax gd 0.3 a=0.09657 e=0.14486 d= [ 0.6667  0.6667 -1.3333] mismatch 2.0e-16  a/gd=0.3219
+linPTT uni gd 1 a=-0.23790 e=0.35685 d= [ 1.3333 -0.6667 -0.6667] mismatch 1.4e-16  a/gd=-0.2379
+linPTT biax gd 1 a=0.27167 e=0.40750 d= [ 0.6667  0.6667 -1.3333] mismatch 2.4e-16  a/gd=0.2717
+linPTT uni gd 3 a=-0.45809 e=0.68713 d= [ 1.3333 -0.6667 -0.6667] mismatch 0.0e+00  a/gd=-0.1527
+linPTT biax gd 3 a=0.57589 e=0.86383 d= [ 0.6667  0.6667 -1.3333] mismatch 1.1e-15  a/gd=0.1920
+linPTT uni gd 10 a=-0.95829 e=1.43743 d= [ 1.3333 -0.6667 -0.6667] mismatch 1.2e-16  a/gd=-0.0958
+linPTT biax gd 10 a=1.22187 e=1.83280 d= [ 0.6667  0.6667 -1.3333] mismatch 3.9e-15  a/gd=0.1222
+Giesekus uni gd 0.3 a=-0.09560 e=0.14339 d= [ 1.3333 -0.6667 -0.6667] mismatch 5.3e-17  a/gd=-0.3187
+Giesekus biax gd 0.3 a=0.09637 e=0.14456 d= [ 0.6667  0.6667 -1.3333] mismatch 1.9e-16  a/gd=0.3212
+Giesekus uni gd 1 a=-0.24923 e=0.37385 d= [ 1.3333 -0.6667 -0.6667] mismatch 4.0e-16  a/gd=-0.2492
+Giesekus biax gd 1 a=0.26604 e=0.39906 d= [ 0.6667  0.6667 -1.3333] mismatch 2.7e-16  a/gd=0.2660
+Giesekus uni gd 3 a=-0.48371 e=0.72556 d= [ 1.3333 -0.6667 -0.6667] mismatch 1.4e-16  a/gd=-0.1612
+Giesekus biax gd 3 a=0.53160 e=0.79740 d= [ 0.6667  0.6667 -1.3333] mismatch 1.8e-16  a/gd=0.1772
+Giesekus uni gd 10 a=-0.92700 e=1.39050 d= [ 1.3333 -0.6667 -0.6667] mismatch 2.4e-16  a/gd=-0.0927
+Giesekus biax gd 10 a=0.99332 e=1.48999 d= [ 0.6667  0.6667 -1.3333] mismatch 1.4e-16  a/gd=0.0993
+RoliePoly(noFE) uni gd 0.3 a=-0.09562 e=0.14343 d= [ 1.3333 -0.6667 -0.6667] mismatch 3.7e-16  a/gd=-0.3187
+RoliePoly(noFE) biax gd 0.3 a=0.09677 e=0.14516 d= [ 0.6667  0.6667 -1.3333] mismatch 3.7e-16  a/gd=0.3226
+RoliePoly(noFE) uni gd 1 a=-0.25949 e=0.38924 d= [ 1.3333 -0.6667 -0.6667] mismatch 0.0e+00  a/gd=-0.2595
+RoliePoly(noFE) biax gd 1 a=0.28229 e=0.42344 d= [ 0.6667  0.6667 -1.3333] mismatch 4.8e-16  a/gd=0.2823
+RoliePoly(noFE) uni gd 3 a=-0.54996 e=0.82494 d= [ 1.3333 -0.6667 -0.6667] mismatch 1.8e-16  a/gd=-0.1833
+RoliePoly(noFE) biax gd 3 a=0.65650 e=0.98475 d= [ 0.6667  0.6667 -1.3333] mismatch 7.3e-16  a/gd=0.2188
+/usr/local/lib/python3.13/dist-packages/scipy/integrate/_ivp/radau.py:108: RuntimeWarning: overflow encountered in dot
+  f_real = F.T.dot(TI_REAL) - M_real * W[0]
+/usr/local/lib/python3.13/dist-packages/scipy/integrate/_ivp/radau.py:108: RuntimeWarning: overflow encountered in multiply
+  f_real = F.T.dot(TI_REAL) - M_real * W[0]
+/usr/local/lib/python3.13/dist-packages/scipy/integrate/_ivp/radau.py:108: RuntimeWarning: invalid value encountered in subtract
+  f_real = F.T.dot(TI_REAL) - M_real * W[0]
+Traceback (most recent call last):
+  File "verification/independent_check_1/n2_flows.py", line 54, in <module>
+    a=brentq(g,-gd,gd,xtol=1e-14,rtol=1e-14)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/optimize/_zeros_py.py", line 858, in brentq
+    r = _zeros._brentq(f, a, b, xtol, rtol, maxiter, args, full_output, disp)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/optimize/_zeros_py.py", line 107, in f_raise
+    fx = f(x, *args)
+  File "verification/independent_check_1/n2_flows.py", line 53, in <lambda>
+    g=lambda a: a-sgn*2*e_of(a)[0]/3
+                        ~~~~^^^
+  File "verification/independent_check_1/n2_flows.py", line 47, in e_of
+    A,res=steady(m,Lof(a),polish=True)
+          ~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "verification/independent_check_1/rlib.py", line 35, in steady
+    sol=solve_ivp(f,[0,T],v0,method='Radau',rtol=rtol,atol=1e-13)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/integrate/_ivp/ivp.py", line 660, in solve_ivp
+    message = solver.step()
+  File "/usr/local/lib/python3.13/dist-packages/scipy/integrate/_ivp/base.py", line 201, in step
+    success, message = self._step_impl()
+                       ~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/scipy/integrate/_ivp/radau.py", line 464, in _step_impl
+    converged, n_iter, Z, rate = solve_collocation_system(
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.fun, t, y, h, Z0, scale, self.newton_tol,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        LU_real, LU_complex, self.solve_lu)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/scipy/integrate/_ivp/radau.py", line 111, in solve_collocation_system
+    dW_real = solve_lu(LU_real, f_real)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/integrate/_ivp/radau.py", line 336, in solve_lu
+    return lu_solve(LU, b, overwrite_b=True)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/linalg/_decomp_lu.py", line 189, in lu_solve
+    return _lu_solve(lu, piv, b, trans=trans, overwrite_b=overwrite_b,
+                     check_finite=check_finite)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/_lib/_util.py", line 1138, in wrapper
+    return f(*arrays, *other_args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/scipy/linalg/_decomp_lu.py", line 196, in _lu_solve
+    b1 = asarray_chkfinite(b)
+  File "/usr/local/lib/python3.13/dist-packages/numpy/lib/_function_base_impl.py", line 684, in asarray_chkfinite
+    raise ValueError(
+        "array must not contain infs or NaNs")
+ValueError: array must not contain infs or NaNs

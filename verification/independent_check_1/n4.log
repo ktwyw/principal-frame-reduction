@@ -1,0 +1,15 @@
+modified spin                        I: 0.00e+00 (res 3e-16,1e-16) II: 2.56e-16 (res 3e-16,2e-16)  max=2.56e-16
+[A,[A,D^2]]                          I: 2.74e-16 (res 2e-16,2e-16) II: 2.25e-16 (res 2e-15,9e-16)  max=2.74e-16
+trD^2 [A,[A,D]]                      I: 1.86e-16 (res 2e-15,4e-16) II: 2.13e-16 (res 4e-15,2e-15)  max=2.13e-16
+D_A^2                                I: 2.03e-16 (res 3e-16,1e-16) II: 3.80e-16 (res 2e-15,2e-16)  max=3.80e-16
+relax 1+k trD_A^2 (on -S only)       I: 1.21e-16 (res 6e-16,2e-16) II: 3.14e-16 (res 2e-15,6e-48)  max=3.14e-16
+relax 1+k trD_A^2 (on S and S^2)     I: 1.28e-16 (res 4e-16,5e-16) II: 1.94e-16 (res 2e-15,9e-16)  max=1.94e-16
+A.D^2+D^2.A (+)                      I: 3.34e-01 (res 5e-16,2e-16) II: 5.09e-02 (res 1e-15,1e-15)  max=3.34e-01
+A.D^2+D^2.A (-)                      I: 2.38e-01 (res 7e-16,7e-17) II: 8.61e-02 (res 1e-15,9e-16)  max=2.38e-01
+relax 1+k trD^2 (on -S only)         I: 2.38e-01 (res 3e-16,3e-16) II: 7.43e-02 (res 1e-15,2e-16)  max=2.38e-01
+relax 1+k trD^2 (on S and S^2)       I: 2.75e-01 (res 3e-16,2e-16) II: 1.14e-01 (res 6e-16,5e-16)  max=2.75e-01
+Giesekus planar ext d1=0.8 principal stresses [ 4.70156212 -0.64765004  0.        ]
+h=0.3 W12=0.3395 ; steady from rest: [-0.64765004  0.          4.70156212]  offdiag -1.6025161288942232e-16  res 4.965068306494546e-16  ref [-0.64765004  0.          4.70156212]
+h=1.0 W12=1.1317 ; steady from rest: [-0.64765004  0.          4.70156212]  offdiag 6.931589335785203e-17  res 4.965068306494546e-16  ref [-0.64765004  0.          4.70156212]
+h=3.0 W12=3.3952 ; steady from rest: [-0.64765004  0.          4.70156212]  offdiag -4.3804473547656133e-16  res 1.831026719408895e-15  ref [-0.64765004  0.          4.70156212]
+wrong-sign W: eig [-0.64765004  0.          4.70156212] 2.6093717870032256

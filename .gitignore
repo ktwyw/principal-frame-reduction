@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# run logs, except the stored verification logs
+*.log
+!verification/**/*.log

@@ -1,0 +1,81 @@
+=== leading-order tests, two-mode spectrum
+linPTT ee=0.01000 (P1-[P1])/(16Var e^2)=1.0015  (P2-[P2])/(8Var e^2)=0.9415   Maxwell-pred for P2: 0.9400
+linPTT ee=0.02497 (P1-[P1])/(16Var e^2)=1.0093  (P2-[P2])/(8Var e^2)=0.8592   Maxwell-pred for P2: 0.8502
+linPTT ee=0.04976 (P1-[P1])/(16Var e^2)=1.0366  (P2-[P2])/(8Var e^2)=0.7364   Maxwell-pred for P2: 0.7015
+linPTT ee=0.09817 (P1-[P1])/(16Var e^2)=1.1377  (P2-[P2])/(8Var e^2)=0.5389   Maxwell-pred for P2: 0.4110
+expPTT ee=0.01000 (P1-[P1])/(16Var e^2)=1.0015  (P2-[P2])/(8Var e^2)=0.9415   Maxwell-pred for P2: 0.9400
+expPTT ee=0.02497 (P1-[P1])/(16Var e^2)=1.0093  (P2-[P2])/(8Var e^2)=0.8592   Maxwell-pred for P2: 0.8502
+expPTT ee=0.04976 (P1-[P1])/(16Var e^2)=1.0364  (P2-[P2])/(8Var e^2)=0.7363   Maxwell-pred for P2: 0.7015
+expPTT ee=0.09817 (P1-[P1])/(16Var e^2)=1.1352  (P2-[P2])/(8Var e^2)=0.5380   Maxwell-pred for P2: 0.4110
+Giesekus ee=0.01000 (P1-[P1])/(16Var e^2)=1.0002  (P2-[P2])/(8Var e^2)=0.9523   Maxwell-pred for P2: 0.9400
+Giesekus ee=0.02497 (P1-[P1])/(16Var e^2)=1.0013  (P2-[P2])/(8Var e^2)=0.8822   Maxwell-pred for P2: 0.8502
+Giesekus ee=0.04976 (P1-[P1])/(16Var e^2)=1.0046  (P2-[P2])/(8Var e^2)=0.7716   Maxwell-pred for P2: 0.7014
+Giesekus ee=0.09826 (P1-[P1])/(16Var e^2)=1.0115  (P2-[P2])/(8Var e^2)=0.5828   Maxwell-pred for P2: 0.4104
+UCM ee=0.01000 (P1-[P1])/(16Var e^2)=1.0027  (P2-[P2])/(8Var e^2)=0.9426   Maxwell-pred for P2: 0.9400
+UCM ee=0.02497 (P1-[P1])/(16Var e^2)=1.0167  (P2-[P2])/(8Var e^2)=0.8652   Maxwell-pred for P2: 0.8502
+UCM ee=0.04975 (P1-[P1])/(16Var e^2)=1.0683  (P2-[P2])/(8Var e^2)=0.7563   Maxwell-pred for P2: 0.7015
+UCM ee=0.09806 (P1-[P1])/(16Var e^2)=1.2979  (P2-[P2])/(8Var e^2)=0.5946   Maxwell-pred for P2: 0.4117
+=== solvent subtraction: Giesekus(0.2)+solvent etas=0.5 (etap=1)
+gd=0.5 naive [P1]/P1=0.9495 ; subtracted: rel err P1 0.0e+00 P2 0.0e+00
+gd=2 naive [P1]/P1=0.6915 ; subtracted: rel err P1 2.2e-16 P2 1.1e-16
+gd=10 naive [P1]/P1=0.3885 ; subtracted: rel err P1 0.0e+00 P2 0.0e+00
+gd=50 naive [P1]/P1=0.2313 ; subtracted: rel err P1 4.4e-16 P2 2.2e-16
+=== PTT two-mode high-rate plateau factor (pred 0.8905)
+gd=100 ee=9.254 [P1]=15.5796 P1=17.6719 ratio=0.8816 ; [P1]/(2/eps)=0.7790
+gd=1000 ee=41.87 [P1]=17.3033 P1=19.4723 ratio=0.8886 ; [P1]/(2/eps)=0.8652
+gd=10000 ee=193.3 [P1]=17.6996 P1=19.8851 ratio=0.8901 ; [P1]/(2/eps)=0.8850
+gd=100000 ee=895.9 [P1]=17.7861 P1=19.9752 ratio=0.8904 ; [P1]/(2/eps)=0.8893
+gd=1e+06 ee=4157 [P1]=17.8048 P1=19.9947 ratio=0.8905 ; [P1]/(2/eps)=0.8902
+single PTT gd=10000 s12/asym=0.99877 N1/asym=0.99755
+single PTT gd=1e+06 s12/asym=0.99994 N1/asym=0.99989
+=== PTT pair with different eps
+gd=0.1 ee=0.04975 ratio=0.9905
+gd=0.133 ee=0.06611 ratio=0.9829
+gd=0.178 ee=0.0876 ratio=0.9689
+gd=0.237 ee=0.1156 ratio=0.9433
+gd=0.316 ee=0.1518 ratio=0.8972
+gd=0.422 ee=0.1977 ratio=0.8225
+gd=0.562 ee=0.2556 ratio=0.7275
+gd=0.75 ee=0.3282 ratio=0.6415
+gd=1 ee=0.4197 ratio=0.5807
+gd=1.33 ee=0.5358 ratio=0.5419
+gd=1.78 ee=0.6842 ratio=0.5179
+gd=2.37 ee=0.8739 ratio=0.5046
+gd=3.16 ee=1.115 ratio=0.5007
+gd=4.22 ee=1.416 ratio=0.5074
+gd=5.62 ee=1.785 ratio=0.5276
+gd=7.5 ee=2.218 ratio=0.5668
+gd=10 ee=2.705 ratio=0.6334
+gd=13.3 ee=3.218 ratio=0.7392
+gd=17.8 ee=3.725 ratio=0.8986
+gd=23.7 ee=4.194 ratio=1.1222
+gd=31.6 ee=4.608 ratio=1.3919
+gd=42.2 ee=4.976 ratio=1.5910
+gd=56.2 ee=5.327 ratio=1.4773
+gd=75 ee=5.705 ratio=1.2115
+gd=100 ee=6.16 ratio=1.0794
+gd=133 ee=6.737 ratio=1.0286
+gd=178 ee=7.48 ratio=1.0089
+gd=237 ee=8.428 ratio=1.0012
+gd=316 ee=9.622 ratio=0.9982
+gd=422 ee=11.11 ratio=0.9970
+gd=562 ee=12.94 ratio=0.9967
+gd=750 ee=15.19 ratio=0.9967
+gd=1e+03 ee=17.94 ratio=0.9968
+gd=1.33e+03 ee=21.28 ratio=0.9970
+gd=1.78e+03 ee=25.35 ratio=0.9971
+gd=2.37e+03 ee=30.28 ratio=0.9973
+gd=3.16e+03 ee=36.28 ratio=0.9974
+gd=4.22e+03 ee=43.54 ratio=0.9975
+gd=5.62e+03 ee=52.36 ratio=0.9976
+gd=7.5e+03 ee=63.04 ratio=0.9977
+gd=1e+04 ee=75.98 ratio=0.9977
+gd=1.33e+04 ee=91.66 ratio=0.9978
+gd=1.78e+04 ee=110.7 ratio=0.9978
+gd=2.37e+04 ee=133.7 ratio=0.9979
+gd=3.16e+04 ee=161.6 ratio=0.9979
+gd=4.22e+04 ee=195.4 ratio=0.9979
+gd=5.62e+04 ee=236.4 ratio=0.9979
+gd=7.5e+04 ee=286 ratio=0.9980
+gd=1e+05 ee=346.1 ratio=0.9980
+max ratio 1.5909664477270418

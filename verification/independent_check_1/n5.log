@@ -1,0 +1,24 @@
+=== protocol vs planar start-up, single-tensor models
+UCM e0=1 max rel dev 2.90e-11 ; shear strain at t=3.00 (Hencky 3.0): 11.90 ; gd end 7.699
+UCM e0=2 max rel dev 2.10e-11 ; shear strain at t=1.50 (Hencky 3.0): 15.12 ; gd end 24.532
+linPTT e0=1 max rel dev 3.79e-11 ; shear strain at t=6.00 (Hencky 6.0): 25.50 ; gd end 5.218
+linPTT e0=2 max rel dev 1.96e-11 ; shear strain at t=3.00 (Hencky 6.0): 36.36 ; gd end 16.296
+Giesekus e0=1 max rel dev 1.29e-11 ; shear strain at t=6.00 (Hencky 6.0): 25.67 ; gd end 5.201
+Giesekus e0=2 max rel dev 1.45e-11 ; shear strain at t=3.00 (Hencky 6.0): 42.51 ; gd end 20.158
+FENE-P e0=1 max rel dev 2.50e-11 ; shear strain at t=6.00 (Hencky 6.0): 38.49 ; gd end 10.038
+FENE-P e0=2 max rel dev 7.41e-11 ; shear strain at t=3.00 (Hencky 6.0): 62.10 ; gd end 34.611
+RoliePoly e0=1 max rel dev 2.14e-11 ; shear strain at t=6.00 (Hencky 6.0): 20.54 ; gd end 3.816
+RoliePoly e0=2 max rel dev 2.17e-11 ; shear strain at t=3.00 (Hencky 6.0): 30.43 ; gd end 12.745
+2 sinh 6 = 403.42631474055844
+=== two-mode Maxwell, e0*taubar=0.2
+t=  0.02 ratio=1.000000  series 1-e0^2 t^4 Var/120=1.000000  gd=0.40000  series gd=0.40000
+t=  0.05 ratio=1.000000  series 1-e0^2 t^4 Var/120=1.000000  gd=0.40002  series gd=0.40002
+t=  0.10 ratio=1.000000  series 1-e0^2 t^4 Var/120=1.000000  gd=0.40007  series gd=0.40007
+t=  0.20 ratio=0.999999  series 1-e0^2 t^4 Var/120=0.999999  gd=0.40023  series gd=0.40022
+t=  0.50 ratio=0.999934  series 1-e0^2 t^4 Var/120=0.999963  gd=0.40095  series gd=0.40048
+t=  1.00 ratio=0.999008  series 1-e0^2 t^4 Var/120=0.999407  gd=0.40236  series gd=0.39585
+t=  3.00 ratio=0.978730  series 1-e0^2 t^4 Var/120=0.952000  gd=0.41174  series gd=0.14400
+t= 10.00 ratio=0.862238  series 1-e0^2 t^4 Var/120=-4.925926  gd=0.43332  series gd=-10.94815
+t= 30.00 ratio=0.776530  series 1-e0^2 t^4 Var/120=-479.000000  gd=0.43643  series gd=-320.40000
+t=100.00 ratio=0.772321  series 1-e0^2 t^4 Var/120=-59258.259259  gd=0.43644  series gd=-12067.74815
+VarG(1/tau)= 1.7777777777777715
